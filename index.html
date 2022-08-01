@@ -33,20 +33,26 @@
             <input
               type="text"
               class="form-control input-sm"
-              id="inputsm"
+              id="taskInput"
               placeholder="task to do"
             />
-            <label for="inputsm" style="left: 5px">My task to do</label>
+            <label for="taskInput" style="left: 5px">My task to do</label>
           </div>
         </div>
         <div class="col-12 col-sm-4">
-          <button type="button " class="btn btn-success">Add task</button>
+          <button type="button " class="btn btn-success" id="addBtn">
+            Add task
+          </button>
         </div>
       </div>
       <h2 class="mt-4">My tasks:</h2>
 
       <div class="row">
-        <ul class="list-group list-group-flush" id="tasksList"></ul>
+        <ul
+          class="list-group list-group-flush"
+          style="border: 0.5px solid rgb(78, 73, 73); border-radius: 10px"
+          id="tasksList"
+        ></ul>
       </div>
     </main>
     <!-- Bootstrap -->
